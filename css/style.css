@@ -1,0 +1,198 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 1;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+
+.logo-nav{
+    height: 40px;
+    width: 40px;
+}
+
+.afbeelding{
+    background-image: url('../images/galerij6.jpg');
+    background-attachment: fixed;
+}
+
+.hero {
+    background-image: url('../images/cover8.jpg');
+    background-attachment: fixed;
+}
+
+.hero2 {
+    background-image: url('../images/cover2.jpg');
+    background-attachment: fixed;
+}
+
+.hero6 {
+    background-image: url('../images/cover7.jpg');
+    background-attachment: fixed;
+}
+
+.coverafbeelding {
+    background-position: center center;
+    background-size: cover;
+    height: 94vh;
+    min-height: 300px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+}
+
+.afbeelding {
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.video {
+    width: 100%;
+    height: 540px;
+}
+
+.article {
+    padding: 40px;
+}
+
+.article-small {
+    padding: 20px;
+}
+
+.article-inverse {
+    background-color: #2c3530;
+    color: white;
+}
+
+.tile {
+    padding: 40px;
+}
+
+#map {
+    width: 100%;
+}
+
+.heading-map {
+    z-index: 50;
+    position: relative;
+    background: rgba(255, 255, 255, 0.75);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc
+}
+
+.contactmap {
+    background-attachment: fixed;
+}
+
+
+/* Dates */
+
+.agenda .agenda-date {
+    width: 170px;
+}
+
+.agenda .agenda-date .dayofmonth {
+    width: 40px;
+    font-size: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.agenda .agenda-date .shortdate {
+    font-size: 0.75em;
+}
+
+.agenda .agenda-time {
+    width: 140px;
+}
+
+.center {
+    margin: auto;
+}
+
+.sprite {
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/spritesheet.png');
+}
+
+.sprite-fb {
+    background-position-x: -200px;
+    background-position-y: -50px;
+}
+
+.sprite-tw {
+    background-position-x: -150px;
+    background-position-y: -50px;
+}
+
+.sprite-insta {
+    background-position-x: -100px;
+    background-position-y: -50px;
+}
+
+.sprite-mail {
+    background-position-x: -50px;
+    background-position-y: -50px;
+}
+
+.sprite:hover {
+    background-position-y: 0px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>History</title>
+</head>
+
+<body>
+    <!-- content -->
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="hero2 coverafbeelding"></div>
+                    <div class="caption text-center">FOODTRUCK</div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand navbar-toggleable-sm bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Bonbon</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="foodtruck.html">Filling the truck</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formule.html">Formula</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="producten.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reserveren.html">Book us!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 tile">
+                        <h1>The story of the Bonbon truck!</h1>
+                        <h2>Chocolate</h2>
+                        <h3>Pure Chocolate</h3>
+                        <div class="form-group">
+                            <select class="form-control form-control-sm">
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <h3>Milk Chocolate</h3>
+                        <h3>White Chocolate</h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="afbeelding"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+        </div>
+
+
+    </main>
+
+    <footer class="text-center">
+        <div class="row">
+            <div class="mx-auto">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="sprite sprite-fb"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sprite sprite-tw"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sprite sprite-insta"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sprite sprite-mail"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <p>Find us on social media and share your experience</p>
+            </div>
+            <div class="col-sm-12">
+                <a class="btn btn-lg btn-secondary" href="reserveren.html" role="button" aria-pressed="true">Book BonBon</a>
+            </div>
+            <div class="col tile">
+                <p>Potluckroad 12
+                    <br> Candyland
+                    <br> 9999 Belgium</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" style="color:white; background-color: lightblue">
+                <p>&copy; Arteveldehogeschool - New Media Design II -
+                    <a href="/dossier/1718_lauriersoren_90957.pdf" download>Download dossier</a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- end content -->
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <script>
+        function initMap() {
+            var uluru = new google.maps.LatLng(20.5083132, -12.356077);
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var navHeight = $(window).height() - 50;
+                if ($(window).scrollTop() > navHeight) {
+                    $('nav').addClass('fixed');
+                } else {
+                    $('nav').removeClass('fixed');
+                }
+            });
+        });
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKGpIViYBo83CLe4P6_dwQXka_8OV5RgE&callback=initMap">
+    </script>
+
+
+    <script src="./js/vendor/jquery.loupe.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
